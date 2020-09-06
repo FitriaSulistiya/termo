@@ -1,0 +1,283 @@
+body {
+  background-color: #cbdaf7;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #332C2B;
+}
+
+body .navbar-brand img {
+  max-height: 25px;
+}
+
+body .btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+body .btn-login:hover {
+  background-color: #1E3771;
+  color: #fff;
+}
+
+body .btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 65px;
+  border-radius: 0;
+}
+
+body .navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+body .navbar-light .navbar-nav .nav-link:active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+body header {
+  background-color: #cbdaf7;
+  color: #332C2B;
+  margin-top: -300px;
+  height: 100vh;
+}
+
+body header .container-header .title-first {
+  padding-top: 300px;
+}
+
+body header .container-header .title-first,
+body header .container-header .title-second {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body header .container-header .title-first,
+body header .container-header .title-second {
+  margin-top: 40px;
+  margin-bottom: 3px;
+}
+
+body header .container-header .body-top,
+body header .container-header .body-bottom {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+body header .container-header .btn-lihat-peternak,
+body header .container-header .btn-registrasi-peternak {
+  background-color: #FF9E53;
+  color: #fff;
+  font-size: small;
+}
+
+body header .container-header .btn-registrasi-peternak {
+  margin-bottom: 0px;
+}
+
+body header .header-gambar-detail {
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+body .section-content-penyuluhan {
+  background-color: #cbdaf7;
+  min-height: 300px;
+  margin-top: 500px;
+}
+
+body .section-content-penyuluhan .container-penyuluhan .penyuluhan-heading {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+body .section-content-penyuluhan .container-penyuluhan .card-penyuluhan {
+  background-color: #fff;
+  background-size: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 160px;
+}
+
+body .section-content-penyuluhan .container-penyuluhan .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100px;
+  margin-bottom: -5px;
+}
+
+body .section-content-penyuluhan .container-penyuluhan .card-title {
+  font-size: 10px;
+  color: #332C2B;
+}
+
+body .footer-content {
+  font-size: 10px;
+  color: #332C2B;
+}
+
+body .section-details-header {
+  height: 650px;
+  background-color: #E4E6EB;
+  margin-top: -500px;
+}
+
+body .section-details-content {
+  margin-top: -140px;
+  min-height: 100vh;
+}
+
+body .section-details-content .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+body .section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #332C2B;
+}
+
+body .card-details {
+  padding: 30px;
+  border-radius: 11px;
+  margin-bottom: 50px;
+}
+
+body .card-details h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+body .card-details .date-created-penyuluhan {
+  font-size: 8px;
+  color: #332C2B;
+}
+
+body .card-details .content-penyuluhan {
+  font-size: 12px;
+  color: #332C2B;
+  text-align: justify;
+}
+
+body .card-details-peternak {
+  padding: 30px;
+  border-radius: 11px;
+  margin-bottom: 50px;
+}
+
+body .card-details-peternak .content-kanan-peternak .judul-tabel {
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+body .section-details-content-list-peternak {
+  margin-top: -140px;
+  min-height: 100vh;
+}
+
+body .section-details-content-list-peternak .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+body .section-details-content-list-peternak .breadcrumb-item.active {
+  font-weight: bold;
+  color: #332C2B;
+}
+
+body .section-details-content-list-peternak .form-search {
+  margin-top: -10px;
+}
+
+body .section-details-content-list-peternak .form-search .btn-search {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+body .section-details-content-list-peternak .form-search .btn-search:hover {
+  background-color: #243f7c;
+  color: #fff;
+}
+
+body .container-card {
+  margin-top: -400px;
+  width: 80%;
+}
+
+body .container-card .card-peternak {
+  border-radius: 5px;
+  width: 180px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+}
+
+body .container-card .card-peternak:hover {
+  -webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+body .container-card .card-peternak .card-img-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 150px;
+  margin-bottom: -5px;
+}
+
+body .container-card .card-peternak .card-text {
+  font-weight: normal;
+  font-size: 9px;
+  color: #000;
+}
+
+body .container-card .card-peternak .status {
+  font-size: 9px;
+  font-weight: normal;
+}
+
+@media (min-width: 992px) {
+  body .login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(62%, #ffffff), color-stop(38%, #E4E6EB));
+    background: linear-gradient(90deg, #ffffff 62%, #E4E6EB 38%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+body .page-login {
+  height: 100vh;
+}
+
+body .page-login .btn-login {
+  background-color: #277394;
+  height: 38px;
+  color: #fff;
+}
+
+body .page-login .btn-login:hover {
+  background-color: #44a3cc;
+  color: #fff;
+}
+
+body .page-login .section-left h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color: #071c4d;
+}
+
+body .page-login .section-left .section-right a {
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

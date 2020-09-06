@@ -1,0 +1,259 @@
+body {
+    //background-color: #cbdaf7;
+    background-color: #cbdaf7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #332C2B;
+    // navbar
+    .navbar-brand {
+        img {
+            max-height: 25px;
+        }
+    }
+    .btn-login {
+        background-color: #071C4D;
+        color: #fff;
+        &:hover {
+            background-color: #1E3771;
+            color: #fff;
+        }
+    }
+    .btn-navbar-right {
+        margin-top: -10px !important;
+        margin-bottom: -8px !important;
+        margin-right: -18px !important;
+        height: 65px;
+        border-radius: 0;
+    }
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #071C4D;
+                &:active {
+                    font-weight: bold;
+                    color: #071C4D !important;
+                }
+            }
+        }
+    }
+    // header
+    header {
+        background-color: #cbdaf7;
+        color: #332C2B;
+        margin-top: -300px;
+        height: 100vh;
+        .container-header {
+            .title-first {
+                padding-top: 300px;
+            }
+            .title-first,
+            .title-second {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .title-first,
+            .title-second {
+                margin-top: 40px;
+                margin-bottom: 3px;
+            }
+            .body-top,
+            .body-bottom {
+                font-size: 13px;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+            .btn-lihat-peternak,
+            .btn-registrasi-peternak {
+                background-color: #FF9E53;
+                color: #fff;
+                font-size: small;
+            }
+            .btn-registrasi-peternak {
+                margin-bottom: 0px;
+            }
+        }
+        .header-gambar-detail {
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+    //Penyuluhan
+    .section-content-penyuluhan {
+        background-color: #cbdaf7;
+        min-height: 300px;
+        margin-top: 500px;
+        .container-penyuluhan {
+            .penyuluhan-heading {
+                margin-top: 40px;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            .card-penyuluhan {
+                background-color: #fff;
+                background-size: cover;
+                margin-top: 10px;
+                border-radius: 10px;
+                height: 160px;
+            }
+            .card-img-top {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                height: 100px;
+                margin-bottom: -5px;
+            }
+            .card-title {
+                font-size: 10px;
+                color: #332C2B;
+            }
+        }
+    }
+    //Nomor Bantuan
+    .footer-content {
+        font-size: 10px;
+        color: #332C2B;
+    }
+    //detail penyuluhan
+    .section-details-header {
+        height: 650px;
+        background-color: #E4E6EB;
+        margin-top: -500px;
+        //margin-bottom: 50px;
+    }
+    .section-details-content {
+        margin-top: -140px;
+        min-height: 100vh;
+        .breadcrumb {
+            background-color: transparent;
+            margin-bottom: 30px;
+        }
+        .breadcrumb-item {
+            &.active {
+                font-weight: bold;
+                color: #332C2B;
+            }
+        }
+    }
+    .card-details {
+        padding: 30px;
+        border-radius: 11px;
+        margin-bottom: 50px;
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: justify;
+        }
+        .date-created-penyuluhan {
+            font-size: 8px;
+            color: #332C2B;
+        }
+        .content-penyuluhan {
+            font-size: 12px;
+            color: #332C2B;
+            text-align: justify;
+        }
+    }
+    //detail peternak
+    .card-details-peternak {
+        padding: 30px;
+        border-radius: 11px;
+        margin-bottom: 50px;
+        .content-kanan-peternak {
+            .judul-tabel {
+                font-weight: bold;
+                margin-top: 25px;
+            }
+        }
+    }
+    //daftar peternak
+    .section-details-content-list-peternak {
+        margin-top: -140px;
+        min-height: 100vh;
+        .breadcrumb {
+            background-color: transparent;
+            margin-bottom: 30px;
+        }
+        .breadcrumb-item {
+            &.active {
+                font-weight: bold;
+                color: #332C2B;
+            }
+        }
+        .form-search {
+            margin-top: -10px;
+            .btn-search {
+                background-color: #071C4D;
+                color: #fff;
+                &:hover {
+                    background-color: #243f7c;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .container-card {
+        margin-top: -400px;
+        width: 80%;
+        .card-peternak {
+            border-radius: 5px;
+            width: 180px;
+            background-color: #fff;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            align-content: center;
+            margin-block-end: 30px;
+            &:hover {
+                box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+            }
+            .card-img-top {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                height: 150px;
+                margin-bottom: -5px;
+            }
+            .card-text {
+                font-weight: normal;
+                font-size: 9px;
+                color: #000;
+            }
+            .status {
+                font-size: 9px;
+                font-weight: normal;
+            }
+        }
+    }
+    //login register
+    .login-container {
+        @media (min-width: 992px) {
+            background: linear-gradient(90deg, #ffffff 62%, #E4E6EB 38%);
+            width: 100vw;
+            height: 100vh;
+        }
+    }
+    .page-login {
+        height: 100vh;
+        .btn-login {
+            background-color: #277394;
+            height: 38px;
+            color: #fff;
+            &:hover {
+                background-color: #44a3cc;
+                color: #fff;
+            }
+        }
+        .section-left {
+            h1 {
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 50px;
+                text-align: left;
+                color: #071c4d;
+            }
+            .section-right {
+                a {
+                    font-weight: 300;
+                    text-decoration: underline;
+                    font-size: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
